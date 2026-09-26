@@ -1,0 +1,60 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 50px;
+}
+.primary-navigation ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#first{
+    
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 20px;
+    border: #0b4a5a solid 10px;
+    background-color: #087A98;
+}
+.home-image{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-size: clamp(5rem, 5vw, 3rem);
+}
+h2{
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: orange;
+}
+.highlight{
+    color: #087A98;
+}
+section{
+    margin-block: 50px;
+}
+.steps-container {
+    display: flex;
+    gap: 40px; /* Adds space between the two columns */
+    align-items: center; /* Vertically centers the content */
+    margin-bottom: 40px; 
+}
+.steps-list {
+    flex: 1; /* Takes up the other half of the width */
+    font-size: 2rem; /* Adjust the font size as needed */
+}
+.teal-bg{
+    flex: 1; /* Takes up the other half of the width */
+    font-size: 1.7rem; /* Adjust the font size as needed */
+}
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #087A98;
+    background-color: #E0F7FA;
+    padding: 20px;
+}
